@@ -16,10 +16,6 @@ body {
   font-weight: 400;
 }
 
-.header-nav {
-}
-.header-list {
-}
 .list {
   list-style: none;
 }
@@ -83,7 +79,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* .title-two{} */
+/* .title-two{
+} */
 
 .subtitle-two {
   font-weight: 700;
