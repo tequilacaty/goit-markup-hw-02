@@ -29,6 +29,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  color: #212121;
 }
 .link {
   text-decoration: none;
@@ -50,10 +51,44 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .header-contact:hover {
   color: #2196f3;
+}
+
+.button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+.portfolio-button{
+    background: #F5F4FA;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26/16);
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+cursor: pointer;
+}
+.portfolio-button:hover{
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
 }
 
 .main-block {
@@ -65,10 +100,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.batton {
-  cursor: pointer;
 }
 
 .title {
